@@ -16,7 +16,7 @@
 
         <h1>Welcome to the chat!</h1>
         <label for="nickNameId">What's your name?:</label>
-        <input type="text" id="nickNameId" name="nickName" value="<%=request.getAttribute("userNick")%>"/>
+        <input type="text" id="nickNameId" name="nickName"/>
         </p>
         <p>
             <label for="colorSelectionId">Select color:</label>
