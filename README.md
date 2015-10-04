@@ -1,2 +1,6 @@
-# Interactive-web-chat
-2015 year. Simple interactive web chat on Ajax and Spring boot
+Interactive web-chat on Ajax and Spring-boot
+======================================
+
+### Running
+    mvn clean spring-boot:run 
+    (default port is 7654)
