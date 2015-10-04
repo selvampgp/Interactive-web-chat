@@ -29,7 +29,6 @@ public class MainController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
     public String login(Model model) {
-        model.addAttribute("userNick", "");
         model.addAttribute("colors", Color.values());
         return "login";
     }
