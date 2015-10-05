@@ -3,10 +3,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>com.ivannyrkov</groupId>
-    <artifactId>chat</artifactId>
-    <version>1.0.0</version>
+    <artifactId>Chat</artifactId>
+    <packaging>war</packaging>
+    <version>1.0</version>
+    <name>Ajax chat</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -39,12 +40,6 @@
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
         </dependency>
-        <dependency>
-            <groupId>javax.inject</groupId>
-            <artifactId>javax.inject</artifactId>
-            <version>1</version>
-        </dependency>
-
     </dependencies>
 
     <build>
