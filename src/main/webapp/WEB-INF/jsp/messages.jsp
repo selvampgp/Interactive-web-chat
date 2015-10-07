@@ -45,7 +45,7 @@
 
         setInterval(onTimeOutFunction, 1000);
         function onTimeOutFunction() {
-            $.getJSON("/messages/" + UserID,
+            $.getJSON("/messages/",
                     function (data) {
                         if (data !== null) {
                             var messageList = document.getElementById("messagesDivId");
